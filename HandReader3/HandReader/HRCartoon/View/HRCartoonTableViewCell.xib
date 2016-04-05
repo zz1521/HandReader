@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="KGk-i7-Jjw" customClass="HRCartoonTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="99"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.png" translatesAutoresizingMaskIntoConstraints="NO" id="3pq-uZ-gXW">
+                        <rect key="frame" x="8" y="4" width="88" height="91"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="88" id="6cW-We-ezD"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="书名" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TVG-Vm-3Kr">
+                        <rect key="frame" x="104" y="8" width="192" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Q2H-Jm-ejr"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="作者：欧阳娜拉" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yFU-St-pX9">
+                        <rect key="frame" x="104" y="32" width="112" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="k3o-AI-Amd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="内容的首付款开发不看看可能加快就 借款方开发卡肯定看开始爱好看看看卡看开始kf" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hMG-k3-T37">
+                        <rect key="frame" x="104" y="61" width="208" height="34"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="总点击 335.2万" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UbH-Q9-24P">
+                        <rect key="frame" x="214" y="34" width="98" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="qgb-Hy-hKY"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="3pq-uZ-gXW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="1f0-ci-H7h"/>
+                    <constraint firstItem="hMG-k3-T37" firstAttribute="leading" secondItem="3pq-uZ-gXW" secondAttribute="trailing" constant="8" id="2wm-aL-59G"/>
+                    <constraint firstItem="TVG-Vm-3Kr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="3gD-0h-WMq"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="TVG-Vm-3Kr" secondAttribute="trailing" constant="16" id="7n6-41-kMv"/>
+                    <constraint firstItem="3pq-uZ-gXW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="Mah-rf-wyi"/>
+                    <constraint firstItem="UbH-Q9-24P" firstAttribute="top" secondItem="TVG-Vm-3Kr" secondAttribute="bottom" constant="5" id="SAc-g8-Eev"/>
+                    <constraint firstItem="hMG-k3-T37" firstAttribute="top" secondItem="UbH-Q9-24P" secondAttribute="bottom" constant="6" id="VS6-0v-bTL"/>
+                    <constraint firstAttribute="trailing" secondItem="UbH-Q9-24P" secondAttribute="trailing" constant="8" id="bHW-Sa-rg2"/>
+                    <constraint firstItem="TVG-Vm-3Kr" firstAttribute="leading" secondItem="3pq-uZ-gXW" secondAttribute="trailing" constant="8" id="bWm-Kh-tme"/>
+                    <constraint firstItem="yFU-St-pX9" firstAttribute="leading" secondItem="3pq-uZ-gXW" secondAttribute="trailing" constant="8" id="e1L-VT-6ML"/>
+                    <constraint firstItem="yFU-St-pX9" firstAttribute="top" secondItem="TVG-Vm-3Kr" secondAttribute="bottom" constant="3" id="ida-IH-Ym7"/>
+                    <constraint firstAttribute="trailing" secondItem="hMG-k3-T37" secondAttribute="trailing" constant="8" id="vE7-MK-wUL"/>
+                    <constraint firstAttribute="bottom" secondItem="hMG-k3-T37" secondAttribute="bottom" constant="4" id="wdA-6H-iWa"/>
+                    <constraint firstAttribute="bottom" secondItem="3pq-uZ-gXW" secondAttribute="bottom" constant="4" id="xZU-mp-ssw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="HRCartoonDescriptionLable" destination="hMG-k3-T37" id="XLR-dH-5ow"/>
+                <outlet property="HRCartoonImageView" destination="3pq-uZ-gXW" id="dU8-eQ-wcR"/>
+                <outlet property="HRCartoonNameLabel" destination="TVG-Vm-3Kr" id="btv-do-gqh"/>
+                <outlet property="HRCartoonNickName" destination="yFU-St-pX9" id="Pdb-wO-xxn"/>
+                <outlet property="HRCatoonExtraValueLable" destination="UbH-Q9-24P" id="1jP-tA-03t"/>
+            </connections>
+            <point key="canvasLocation" x="206" y="186"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="star.png" width="700" height="466"/>
+    </resources>
+</document>

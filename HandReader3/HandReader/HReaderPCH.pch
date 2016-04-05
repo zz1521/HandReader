@@ -1,0 +1,25 @@
+//
+//  HReaderPCH.pch
+//  HandReader
+//
+//  Created by qianfeng0 on 16/3/26.
+//  Copyright (c) 2016年 LiPengfei. All rights reserved.
+//
+
+#ifndef HandReader_HReaderPCH_pch
+#define HandReader_HReaderPCH_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "UIImageView+WebCache.h"
+#import "HRReaderHeader.h"
+#import "HRDataNetEngine.h"
+#import "MMProgressHUD.h"
+#import "HRFactory.h"
+#import "HRDBManager.h"
+#import "JHRefresh.h"
+
+
+#endif
